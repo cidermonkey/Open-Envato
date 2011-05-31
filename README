@@ -1,0 +1,8 @@
+// Activate the plugin from the plugins menu then
+// add the below div and php function to sidebar.php and set up your database settings,
+// envato username and store type (i.e. themeforest, activeden etc.) in the plugin
+// settings menu
+
+<div id="envatoPlug">
+	<?php echo openenv_getproducts(); ?>
+</div>
